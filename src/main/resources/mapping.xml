@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping http://dozermapper.github.io/schema/bean-mapping.xsd">
+    <mapping>
+        <class-a>dev.simplesolution.usingdozer.model.SourceContact</class-a>
+        <class-b>dev.simplesolution.usingdozer.model.DestinationContact</class-b>
+        <field>
+            <a>id</a>
+            <b>identity</b>
+        </field>
+        <field>
+            <a>name</a>
+            <b>fullName</b>
+        </field>
+        <field>
+            <a>email</a>
+            <b>emailAddress</b>
+        </field>
+        <field>
+            <a>phone</a>
+            <b>phoneNumber</b>
+        </field>
+        <field>
+            <a>address</a>
+            <b>addressLine</b>
+        </field>
+    </mapping>
+</mappings>
